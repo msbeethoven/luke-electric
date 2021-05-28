@@ -2,7 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
 <body style="margin: 0;">
-<div id="the_footer">
+<div class="the_footer">
     <div class="footer">
         <div class="section w988">
             <div class="list_block type_article column_amt_4 small">
@@ -54,9 +54,17 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
-#the_footer {
+.the_footer {
     max-width: 100% !important;
 }
+/* 
+.the_footer {
+    max-width: 100% !important;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+} */
 
 #wrapper .footer {
     background-color: #18336a;
@@ -67,9 +75,10 @@ export default {
     background-color: #18336a;
     background-image: none;
     color: #ffffff;
+    width: inherit;
 }
 
-#the_footer .section {
+.the_footer .section {
     display: table;
     margin: 0;
     width: 100%;
@@ -84,19 +93,19 @@ export default {
     font-size: 0;
 }
 
-#the_footer #_the_copyright .copy {
+.the_footer #_the_copyright .copy {
     display: block;
     text-align: left;
     font-size: small;
     padding: 5px;
 }
 
-#the_footer .list_block {
+.the_footer .list_block {
     display: table-row;
     float: none;
 }
 
-#the_footer .list_block .list_block_headline {
+.the_footer .list_block .list_block_headline {
     height: auto;
     margin: 0;
 }
@@ -107,22 +116,22 @@ export default {
     text-decoration: none;
 }
 
-#the_footer .widget {
+.the_footer .widget {
     display: table-cell;
     float: none;
 }
 
-#the_footer .the_list_item {
+.the_footer .the_list_item {
     padding: 5rem 2.025% 3rem;
     width: 25%;
 }
 
-#the_footer .list_block .list_block_headline {
+.the_footer .list_block .list_block_headline {
     height: auto;
     margin: 0;
 }
 
-#the_footer .menu {
+.the_footer .menu {
     column-count: 2;
     column-gap: .5rem;
 }
