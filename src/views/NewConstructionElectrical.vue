@@ -1,7 +1,7 @@
 <template>
-  <div class="panel-upgrades">
+  <div class="new-con-electric">
     <Header />
-    <h1>This is about panel upgrades</h1>
+    <h1>This is about new construction electrical</h1>
     <Footer />
   </div>
 </template>

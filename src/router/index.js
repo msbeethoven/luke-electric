@@ -1,6 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
-import PanelUpgrades from '../views/PanelUpgrades'
+import PanelUpgrades from '../views/PanelUpgrades.vue'
+import NewConstructionElectrical from '../views/NewConstructionElectrical.vue'
+import ElectricalRepairs from '../views/ElectricalRepairs'
+import OutdoorLighting from '../views/OutdoorLighting'
+import Testimonials from '../views/Testimonials'
+import Contact from '../views/Contact'
+// import {PanelUpgrades, NewConstructionElectrical, ElectricalRepairs, OutdoorLighting, Testimonials, Contact} from '../views/'
 
 const routes = [
   {
@@ -9,17 +15,34 @@ const routes = [
     component: Home
   },
   {
-    path: '/about',
-    name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-  },
-  {
     path: '/panel-upgrades',
     name: 'PanelUpgrades',
     component: PanelUpgrades
+  },
+  {
+    path: '/new-construction-electrical',
+    name: 'NewConstructionElectrical',
+    component: NewConstructionElectrical
+  },
+  {
+    path: '/electrical-repairs',
+    name: 'ElectricalRepairs',
+    component: ElectricalRepairs
+  },
+  {
+    path: '/outdoor-lighting',
+    name: 'OutdoorLighting',
+    component: OutdoorLighting
+  },
+  {
+    path: '/testimonials',
+    name: 'Testimonials',
+    component: Testimonials
+  },
+  {
+    path: '/contact',
+    name: 'Contact',
+    component: Contact
   }
 ]
 

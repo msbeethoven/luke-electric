@@ -1,7 +1,7 @@
 <template>
-  <div class="panel-upgrades">
+  <div class="testimonial">
     <Header />
-    <h1>This is about panel upgrades</h1>
+    <h1>This is about testimonials</h1>
     <Footer />
   </div>
 </template>
