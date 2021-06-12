@@ -8,8 +8,8 @@
 
 
 <script>
-import Header from '@/components/Header.vue'
-import Footer from '@/components/Footer.vue'
+import Header from '@/components/TheHeader.vue'
+import Footer from '@/components/TheFooter.vue'
 
 export default {
   name: 'Contact',
