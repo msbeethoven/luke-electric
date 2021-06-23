@@ -48,14 +48,8 @@
 </template>
 
 <script>
-import Header from "@/components/TheHeader.vue";
-import Footer from "@/components/TheFooter.vue";
 
 export default {
-  name: "Contact",
-  components: {
-    Header,
-    Footer,
-  },
+  name: "PanelUpgrades",
 };
 </script>
