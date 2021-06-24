@@ -37,7 +37,7 @@
       <div>
         <router-link to="new-construction-electrical">
           <img
-            src="/images/New-Construction-Electrical.jpg"
+            src="/images/new-construction-electrical.jpg"
             alt="panel upgrades"
           />
           <div class="fancy-card-content">
@@ -49,7 +49,7 @@
       <div>
         <router-link to="electrical-repairs">
           <img
-            src="/images/Electrical-Repairs.jpg"
+            src="/images/electrical-repairs.jpg"
             alt="panel upgrades"
           />
           <div class="fancy-card-content">
@@ -61,7 +61,7 @@
       <div>
         <router-link to="outdoor-lighting">
           <img
-            src="/images/Outdoor-Lighting.jpg"
+            src="/images/outdoor-lighting.jpg"
             alt="panel upgrades"
           />
           <div class="fancy-card-content">
