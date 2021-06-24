@@ -21,7 +21,7 @@
       <router-link to="/">
         <img
           alt="Luke Electric NJ"
-          src="../assets/logo_1.png"
+          src="/images/logo.png"
         />
       </router-link>
     </div>

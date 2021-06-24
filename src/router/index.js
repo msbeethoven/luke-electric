@@ -6,7 +6,6 @@ import ElectricalRepairs from '../views/ElectricalRepairs'
 import OutdoorLighting from '../views/OutdoorLighting'
 import Testimonials from '../views/Testimonials'
 import Contact from '../views/Contact'
-// import {PanelUpgrades, NewConstructionElectrical, ElectricalRepairs, OutdoorLighting, Testimonials, Contact} from '../views/'
 
 const routes = [
   {

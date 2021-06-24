@@ -7,7 +7,7 @@
     <div class="content-card-content">
       <h2>{{ title }}</h2>
       <h4>{{ description }}</h4>
-      <router-link :to="to">Learn More</router-link>
+      <router-link v-if="to" :to="to">Learn More</router-link>
     </div>
   </div>
 </template>
