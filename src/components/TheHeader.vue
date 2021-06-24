@@ -8,7 +8,11 @@
       >
         (908) 246-8546
       </a>
-      &nbsp;|&nbsp;
+       |
+      <a href="mailto:Lukeelectric13@gmail.com">
+        Email
+      </a>
+       |
       <a
         href="https://www.google.com/maps/place/Luke+Electric+LLC/@40.7005691,-74.9635502,15z/data=!4m5!3m4!1s0x0:0x935b5fafd5a5016a!8m2!3d40.7005691!4d-74.9635502"
         title="Google"
