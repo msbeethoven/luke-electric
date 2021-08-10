@@ -19,17 +19,7 @@ const routes = [
     component: PanelUpgrades
   },
   {
-    path: '/panel-upgrades/',
-    name: 'PanelUpgrades',
-    component: PanelUpgrades
-  },
-  {
     path: '/new-construction-electrical',
-    name: 'NewConstructionElectrical',
-    component: NewConstructionElectrical
-  },
-  {
-    path: '/new-construction-electrical/',
     name: 'NewConstructionElectrical',
     component: NewConstructionElectrical
   },
@@ -39,17 +29,7 @@ const routes = [
     component: ElectricalRepairs
   },
   {
-    path: '/electrical-repairs/',
-    name: 'ElectricalRepairs',
-    component: ElectricalRepairs
-  },
-  {
     path: '/outdoor-lighting',
-    name: 'OutdoorLighting',
-    component: OutdoorLighting
-  },
-  {
-    path: '/outdoor-lighting/',
     name: 'OutdoorLighting',
     component: OutdoorLighting
   },
@@ -59,17 +39,7 @@ const routes = [
     component: Testimonials
   },
   {
-    path: '/testimonials/',
-    name: 'Testimonials',
-    component: Testimonials
-  },
-  {
     path: '/contact',
-    name: 'Contact',
-    component: Contact
-  },
-  {
-    path: '/contact/',
     name: 'Contact',
     component: Contact
   }
@@ -79,5 +49,13 @@ const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes
 })
+
+router.beforeEach((to, from, next) => {
+  // hack to allow for forward slashes in path ids
+  if (to.fullPath.includes('%2F')) {
+    next(to.fullPath.replace('%2F', '/'));
+  }
+  next();
+});
 
 export default router
